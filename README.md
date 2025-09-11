@@ -7,8 +7,8 @@ It demonstrates a full workflow from data exploration to model evaluation and in
 **Dataset**
 
 - **Total Records** -> 63,326
-- **Target Variables** -> `Claim` (1 = Claim, 0 = No Claim)
-- **Class Imbalace** -> Only ~ 1.5% claim
+- **Target Variable** -> `Claim` (1 = Claim, 0 = No Claim)
+- **Class Imbalance** -> Only ~ 1.5% claim
 
 ## Dataset Features
 
@@ -26,20 +26,20 @@ It demonstrates a full workflow from data exploration to model evaluation and in
 
 **Workflow**
 
-**1. Data Cleaning and Prepocessing**
+**1. Data Cleaning and Preprocessing**
 - Handled missing values (Gender → "Unknown")
 - Encoded categorical variables
 - Scaled numerical features
 - Addressed imbalance using class_weight='balanced'
 
-**2. Explanatory Data Analysis**
+**2. Exploratory Data Analysis**
 - Claim distribution
 - Correlation heatmap
 - Claim rate by agency, product and region
 
 **3. Model Building (Supervised Learning)**
 - Logistic Regression
-- Desision Tree
+- Decision Tree
 - Neural Network (MLP)
 
 Evaluation Metrics: Accuracy, Precision, Recall, F1-score, AUC
