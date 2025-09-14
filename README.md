@@ -4,6 +4,12 @@ Travel Insurance Claim Prediction & Customer Segmentation
 This project applies machine learning techniques to predict whether a customer will make a travel insurance claim and to segment customers using unsupervised clustering.
 It demonstrates a full workflow from data exploration to model evaluation and includes a final report with visual insights.
 
+## Download the Project Notebook
+
+📂⬇️ [**Download travel-insurance-claim-prediction.ipynb**]
+
+(https://colab.research.google.com/drive/1kyLmaYEaDjbpQ2RYsfx5fb_iFnSmVUyg#scrollTo=F8rocuszTAoS)
+
 **Dataset**
 
 - **Total Records** -> 63,326
