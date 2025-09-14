@@ -29,7 +29,7 @@ from sklearn.cluster import KMeans
 from sklearn.metrics import silhouette_score
 
 # File paths
-DATASET_PATH = '/content/drive/MyDrive/CSE422/labProject/travel_insurance.csv'
+DATASET_PATH = '/content/drive/MyDrive/CSE422/labProject/travel_insurance.csv' #Upload the dataset and give your own path
 OUTPUT_DIR = 'outputs'
 RANDOM_STATE = 42
 
@@ -46,6 +46,7 @@ print("Shape:", df.shape)
 
 
 ##Cell - 2
+
 pd.set_option('display.max_rows', 500)
 df.head(500)
 
